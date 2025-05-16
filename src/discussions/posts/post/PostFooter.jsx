@@ -33,7 +33,7 @@ const PostFooter = ({
   }, [id, voted]);
 
   return (
-    <div className="d-flex align-items-center ml-n1.5 mt-10px" style={{ height: '32px' }} data-testid="post-footer">
+    <div className="d-flex align-items-center ml-n1.5 mt-10px hover:ml-2" style={{ height: '32px' }} data-testid="post-footer">
       {voteCount !== 0 && (
         <LikeButton
           count={voteCount}
