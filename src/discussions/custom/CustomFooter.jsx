@@ -4,20 +4,16 @@ import { Col, Container, Row } from '@openedx/paragon';
 <>
   <style>
     {`
-      .bg-primary {
+      .bg-ask-brand {
         background-color: #ff6f00 !important;
       }
     `}
   </style>
-
-  <div className="force-bg">
-    Your content
-  </div>
 </>
 
 
 const FooterSlot = () => (
-  <footer className="bg-primary px-4 xl:px-20 py-8 lg:px-10 xl:py-28" style={{ backgroundColor: '#ff6f00' }}>
+  <footer className="bg-ask-brand px-4 xl:px-20 py-8 lg:px-10 xl:py-28">
     <div className="w-full flex flex-col justify-start lg:flex-row lg:items-start lg:justify-between space-x-10 text-white">
       <div className="w-full lg:w-auto flex justify-start lg:inline">
         <img src="https://ask4bg.org/asset/logov.png" alt="ASK4BG logo" className="md:scale-50 w-75 md:w-full mb-5 md:mb-0" />

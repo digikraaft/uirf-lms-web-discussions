@@ -864,6 +864,10 @@ th, td {
   background: #ff6f00 !important;
   border-radius: 0 !important;
 }
+.nav-button-group .nav-link.active, .nav-button-group .show>.nav-link {
+  background-color: #f2f7f8;
+  color: #ff6f00;
+}
 [dir="ltr"] .nav-button-group .nav-link:last-child,[dir="ltr"] .nav-button-group .nav-link:first-child{
   border-radius: 0 !important;
 }
@@ -879,5 +883,8 @@ th, td {
 .bg-primary {
   background-color: #ff6f00 !important;
   border-color: #ff6f00 !important;
+}
+.bg-ask-brand {
+  background-color: #ff6f00 !important;
 }
 
