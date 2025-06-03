@@ -860,9 +860,9 @@ th, td {
   border-bottom-color: #ff6f00 !important;
   color: #ff6f00 !important;
 }
-#root .header-action-bar .navbar .nav-button-group .nav-item .nav-link.active{
+#root .header-action-bar .navbar .nav-button-group .nav-item .nav-link.active, #root .header-action-bar .navbar .nav-button-group .nav-item .nav-link.active{
   background: #ff6f00 !important;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 [dir="ltr"] .nav-button-group .nav-link:last-child,[dir="ltr"] .nav-button-group .nav-link:first-child{
   border-radius: 0 !important;
